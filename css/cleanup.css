@@ -1,1 +1,19 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+#wall div#tag-2 {
+    display: none;
+}
+
+/*class id "slick wicked" was written incorrectly, 
+added dash "-" in between to make connected so the 
+class selector can be used */
+#tag-3 .slick-wicked { 
+    display: none;
+}
+
+.parent {
+    display: none;
+}
